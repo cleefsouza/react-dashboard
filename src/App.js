@@ -14,9 +14,9 @@ function App() {
         <div className="row">
           <div className="col">
             <Switch>
-              <Route path="/consultas" component={Consultas}/>
-              <Route path="/faturamento" component={Faturamento}/>
-              <Route path="/" exact component={Resumo}/>
+              <Route path="/consultas" component={Consultas} />
+              <Route path="/faturamento" component={Faturamento} />
+              <Route path="/" exact component={Resumo} />
             </Switch>
           </div>
         </div>
